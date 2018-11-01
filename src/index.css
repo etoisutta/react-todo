@@ -10,11 +10,17 @@ body {
   flex-direction: column-reverse;
 }
 
-.todoListMain .header input {
+.todoListMain .header input{
   padding: 10px;
   font-size: 16px;
   border: 2px solid #FFF;
-  width: 165px;
+  width: 200px;
+}
+
+.todoListMain .header .dateTimePicker{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
 }
 
 .todoListMain .header button {
