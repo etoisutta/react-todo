@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import TodoList from './TodoList';
 import './App.css';
+import Typography from '@material-ui/core/Typography'
 
 class App extends Component {
-	render() {
-		return (
-		<div className="App">
+  render() {
+    return (      
+      <div className="App">
+        <Typography variant='display1' align='center' gutterBottom>
+          Reminder
+        </Typography>
         <TodoList />
       </div>
     );
