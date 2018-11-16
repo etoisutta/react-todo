@@ -8,7 +8,7 @@ class App extends Component {
     return (      
       <div className="App">
         <Typography variant='display1' align='center' gutterBottom>
-          Todo List
+          To Do List
         </Typography>
         <TodoList />
       </div>
